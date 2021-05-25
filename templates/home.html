@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+</html>
+<html>
+<body bgcolor="#00ffff">
+<h1>welcome</h1>
+<form action="calcualte" method = "post">
+    {% csrf_token %}
+    {{ form }}
+    <br>
+    <input type="submit" value="sumbit" />
+</form>
+<form action="logout">
+    <input type="submit" name="logout">
+</form>
+</body>
+</html>
