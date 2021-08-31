@@ -38,10 +38,6 @@ def home(request):
     form = ScoreForm()
     return render(request,'home.html',{'form':form})
 
-def calculate(request):
-
-
-
 def logout(request):
     return render(request,'login.html')
 
